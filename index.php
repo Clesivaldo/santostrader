@@ -46,7 +46,7 @@
             <a class="nav-item nav-link" id="services-menu" href="sinaisrobos.html">Sinais + Robos</a>
             <a class="nav-item nav-link" id="team-menu" href="galeria.html">Galeria</a>
             <a class="nav-item nav-link" id="portfolio-menu" href="sobre.html">Sobre nós</a>
-            <a class="nav-item nav-link" id="contact-menu" href="#contact-area">Contato</a>
+            <!--<a class="nav-item nav-link" id="contact-menu" href="#contact-area">Contato</a>-->
           </div>
         </div>
       </nav>

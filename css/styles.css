@@ -258,7 +258,7 @@ header, .navbar {
   text-align: center;
 }
 .card-img-top {
-	height: 160px;
+  height: 160px;
 
 }
 
@@ -363,10 +363,10 @@ header, .navbar {
 
 .newsletter form { width:100%; text-align:center; }
 .newsletter input { background-color: #FFF;  width: 40%; 
-	padding: 5px; border-radius: 15px; border-color: transparent;}
+  padding: 5px; border-radius: 15px; border-color: transparent;}
 .newsletter input:hover { background-color: #f8f8f8; }
 .newsletter button {width: 15%; color:#333; padding: 5px; cursor: pointer; 
-	margin-top: 1%; border-radius: 15px; border-color: transparent; }
+  margin-top: 1%; border-radius: 15px; border-color: transparent; }
 .newsletter button:hover {background-color: #f8f8f8; color: #65DAF9;}
 
 /* Call To Action */
@@ -376,8 +376,8 @@ header, .navbar {
   text-transform: uppercase;
 }
 .main-btn {
-	background-color: #65DAF9;
-	width: 30%;
+  background-color: #65DAF9;
+  width: 30%;
 }
 
 
@@ -503,7 +503,7 @@ header, .navbar {
  .sinais1 {margin-top: -26.5%;}
 .sinais2 {margin-top: -8%; margin-bottom: 77%;}
 .h3, .titolo-cursos{height: 100px; font-size: 40px; text-align: center; 
-	margin-top: 80px;} 
+  margin-top: 80px;} 
 #areasobre { margin-top: 180px;}
 .imgfluid {  width: 400px; height: 370px; margin-top: 30px;}
 .newsletter {margin-top: 30px;}
@@ -713,7 +713,7 @@ header, .navbar {
   #about-area
   
  #portfolio-area {
- 	margin-top: 85px; 
+  margin-top: 85px; 
  }
  #portfolio-area .main-title { margin-top: 2%;}
  #portfolio-area {margin-bottom: -10%; margin-top: 10%;}
@@ -725,10 +725,10 @@ header, .navbar {
 .newsletter h3 {font-size: 1rem; color: #444; text-align: center;}
 /* campo email e cadastrar */
 .newsletter input { background-color: #FFF; margin-top: 10px; margin-left: 25px; float: left;  width: 90%; 
-	padding: 5px; border-radius: 15px; border-color: transparent;}
+  padding: 5px; border-radius: 15px; border-color: transparent;}
 .newsletter input:hover { background-color: #f8f8f8; }
 .newsletter button {width: 25%; color:#333; padding: 5px; cursor: pointer; 
-	margin-top: 1%; border-radius: 15px; border-color: transparent; margin-left: 180px; }
+  margin-top: 1%; border-radius: 15px; border-color: transparent; margin-left: 180px; }
 .newsletter button:hover {background-color: #f8f8f8; color: #65DAF9;}
  
 
@@ -783,11 +783,12 @@ header, .navbar {
 
 @media  (min-width: 300px) and (max-width: 499.99px) {
   .container {width: 100%; padding: 70px 0 0;}
+  #logo {width: 65px; margin-left: 10px;}
 
   .navbar-nav { margin-top: 50px;}
   /* slider */
   #mainSlider {
-    margin-top: 30px;
+    margin-top: 18px;
   }
  
 .container-fluid .carousel-inner img {
@@ -816,8 +817,10 @@ header, .navbar {
     font-size: 25px;
     margin: -25px 0 -35px 0;
 }
-
-
+  
+#services-area{
+  margin-top: -40px;
+}
 
   #about-area img {
     margin-top: 0;
@@ -839,6 +842,9 @@ header, .navbar {
 
   #company-img {
     display: none;
+  }
+  .img-fluid {
+    width: 100%;
   }
   
   /* filter */
@@ -883,13 +889,14 @@ header, .navbar {
 
   #contact-form .main-btn {margin-bottom: 20px;}
 
-  .newsletter h3 {font-size: 1.2rem;}
+  .newsletter h3 {font-size: 1.2rem; padding: 0 15px 0 15px;}
   .newsletter button {margin-left: 0; width: auto;}
 
 
 /*  cursos titolo */ 
-.corpo h3 {margin: 160px 0 0px 0;}
-.corpo h3::after {width: 30%; top: 27%;}
+.cor-sinais {  margin-top: -15px;}
+.corpo h3 {margin: 160px 0 0px 0; font-size: 25px;}
+.corpo h3::after {width: 20%; top: 24.5%;}
 
 .alert { margin-bottom: -120px; width: auto;}
 

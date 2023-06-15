@@ -136,6 +136,12 @@ header, .navbar {
   transform: translate(-50%, -50%);
   position: absolute;
  }
+
+#aboutarea .maintitle::after {
+  margin-top: 60px;
+  width: 15%;
+}
+
 #about-area .about-title {margin-top: 4%;}
 
 
@@ -236,7 +242,7 @@ header, .navbar {
 
 
 /* serviços pagina sobre #e9ecef cor cinza */
-#aboutarea { width: 100%; background-color: #f9f9f9; }
+#aboutarea { width: 100%;  background-color: #f9f9f9; }
 .maintitle { margin-top: 75px; text-align: center; font-size: 40px; }
 .imgfluid {width: 570px; height: 460px; float: left; margin-top: 10%; }
 .abouttitle {padding-left: 12%; margin-top: 70px; text-transform: uppercase;}
@@ -500,6 +506,7 @@ header, .navbar {
 .curso2 { margin-top: -4%; padding-bottom: 20%;}
 
  /* pagina sinais */ 
+ .cor-sinais h3 { margin:150px 0 30px 0;  }
  .sinais1 {margin-top: -26.5%;}
 .sinais2 {margin-top: -8%; margin-bottom: 77%;}
 .h3, .titolo-cursos{height: 100px; font-size: 40px; text-align: center; 
@@ -566,6 +573,24 @@ header, .navbar {
     right: 10%;
   }
 
+  #aboutarea .maintitle {
+  margin-top: 130px;
+}
+#aboutarea .maintitle::after {
+  margin-top: 60px;
+}
+
+.imgfluid {
+ max-width: 100%;
+ margin-top: -10px;
+}
+
+#aboutarea .abouttitle {
+  margin-top: -20px;
+}
+#aboutarea .row { margin: 0 -10px 0 -10px;}
+
+
 
 
 
@@ -605,11 +630,31 @@ header, .navbar {
   margin: 60px 0 60px 0;
 }
 
+#aboutarea .maintitle {
+  margin-top: 80px;
+}
+#aboutarea .maintitle::after {
+  margin-top: 40px;
+}
+
+ .img-fluid {
+  margin-top: 70px;
+}
+.imgfluid {
+  max-width: 100%;
+  margin-top: 70px;
+}
+
+#aboutarea .abouttitle {
+  margin-top: -20px;
+}
+
 
 
   /*  cursos titolo */ 
-
 .corpo .curso1  {margin-top: -250px; }
+.cor-sinais h3::after {margin-top: 1115px;}
+
 .alert {top: 10px; margin-bottom: -120px;}
 
   /*  cursos subindo contato */ 
@@ -648,6 +693,7 @@ header, .navbar {
     font-size: 1rem;
   }
 
+
   #filter-btn-box {margin-top: 30px;}
 
   .newsletter h2 {margin-top: 0px;}
@@ -656,8 +702,9 @@ header, .navbar {
   
 /*  cursos titolo */ 
 .corpo .curso1 {padding-bottom: 190px;}
-.corpo h3 {margin: 140px 0 40px 0;}
-.corpo h3::after {width: 25%; top: 24.5%;}
+.corpo h3 {margin: 140px 0 40px 0; font-size: 25px;}
+.corpo h3::after {width: 15%; top: 23%;}
+.cor-sinais h3::after {margin-top: 10px;}
 
 .alert { margin-bottom: -120px;}
 
@@ -687,7 +734,7 @@ header, .navbar {
     color: #444;
     margin: 10px ;
     padding-bottom: -15;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -706,12 +753,19 @@ header, .navbar {
 #apply-btn {margin-top: 3%;}
 
 
+.imgfluid {
+  width: 100%;
+  margin-top: 0;
+  margin-top: -5%;
+}
+
+
   /* about */
+  #aboutarea {margin-top: 80px;}
   #about-area img {
     margin-top: 25px; width: 500px; margin-bottom: 22px;
   }
-  #about-area
-  
+  #about-area  
  #portfolio-area {
   margin-top: 85px; 
  }
@@ -720,7 +774,7 @@ header, .navbar {
 #portfolio-area img{width: 100%; margin-top: -25px;}
 
  /* NEWSLETTER */
-#nett-area {background-color: #65DAF9; text-transform: uppercase; height: 200px; margin-top: -200px;}
+#nett-area {background-color: #65DAF9; text-transform: uppercase; height: 200px; margin-top: -230px;}
 .newsletter h2 {font-size: 1.5em; color: #333; font-weight: 700; text-align: center; }
 .newsletter h3 {font-size: 1rem; color: #444; text-align: center;}
 /* campo email e cadastrar */
@@ -826,6 +880,15 @@ header, .navbar {
     margin-top: 0;
     margin-bottom: 30px;
   }
+  .abouttitle {
+    margin-top: 10px;
+}
+#aboutarea {
+  margin-top: 80px;
+}
+#aboutarea p {
+  padding-left: 0;
+}
 
   .imgcursos img {width: auto;}
 
@@ -845,6 +908,10 @@ header, .navbar {
   }
   .img-fluid {
     width: 100%;
+  }
+  .imgfluid {
+    width: 100%;
+    height: 390px;
   }
   
   /* filter */
@@ -889,19 +956,20 @@ header, .navbar {
 
   #contact-form .main-btn {margin-bottom: 20px;}
 
-  .newsletter h3 {font-size: 1.2rem; padding: 0 15px 0 15px;}
+  .newsletter h3 {font-size: 1.2rem; padding: 0 8px 0 8px;}
   .newsletter button {margin-left: 0; width: auto;}
 
 
 /*  cursos titolo */ 
 .cor-sinais {  margin-top: -15px;}
 .corpo h3 {margin: 160px 0 0px 0; font-size: 25px;}
-.corpo h3::after {width: 20%; top: 24.5%;}
+.corpo h3::after {width: 20%; top: 25.5%;}
 
 .alert { margin-bottom: -120px; width: auto;}
 
 #nett-area {margin-top: -10px;}
 
 .imggaleria img {width: auto;}
+
 
 }

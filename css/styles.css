@@ -142,7 +142,7 @@ header, .navbar {
   width: 15%;
 }
 
-#about-area .about-title {margin-top: 4%;}
+#about-area .about-title {margin-top: 0; padding-bottom: 20px; text-align: center;}
 
 
 .about-title {
@@ -198,8 +198,7 @@ header, .navbar {
 
 /* serviços pagina cursos */
 .corpo h3 {margin-top: 170px;}
-.alert {  min-width: 100%; }
-.corpo .curso1  {margin-top: -270px; margin-bottom: 200px;}
+.corpo .curso1  {margin-top: -270px; margin-bottom: 230px;}
 
 .corpo h3::after {
   content: "";
@@ -514,7 +513,7 @@ header, .navbar {
 #areasobre { margin-top: 180px;}
 .imgfluid {  width: 400px; height: 370px; margin-top: 30px;}
 .newsletter {margin-top: 30px;}
-.alert { width: 450px; top: 13%; margin-bottom: -25%;}
+.alert { width: 450px; top: 13%; margin-bottom: -25%; background-color: #65DAF9;}
 .sinais2 {margin-top: -4%; margin-bottom: 20%;}
 
 /* serviços pagina galeria */
@@ -706,7 +705,7 @@ header, .navbar {
 .corpo h3::after {width: 15%; top: 23%;}
 .cor-sinais h3::after {margin-top: 10px;}
 
-.alert { margin-bottom: -120px;}
+.alert { margin-bottom: -120px; }
 
 
 
@@ -961,7 +960,7 @@ header, .navbar {
 
 
 /*  cursos titolo */ 
-.cor-sinais {  margin-top: -15px;}
+.cor-sinais {  margin-top: -12px;}
 .corpo h3 {margin: 160px 0 0px 0; font-size: 25px;}
 .corpo h3::after {width: 20%; top: 25.5%;}
 
